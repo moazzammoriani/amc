@@ -1,0 +1,9 @@
+.services-cover {
+    background: url("images/services-cover.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+h4 {
+    margin-bottom: calc(var(--containers-padding) / 2);
+}
