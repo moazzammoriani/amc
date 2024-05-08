@@ -6,7 +6,7 @@ h1 {
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
     font-size: 28px;
     margin-bottom: var(--containers-padding);
 }
@@ -98,7 +98,7 @@ nav {
     font-size: 0px;
     line-height: 40px;
     transition: height 0.4s ease-in-out, opacity 0.3s ease-in-out;
-    color: blue;
+    color: var(--green);
 }
 
 .mobile-nav-btn-display {
@@ -144,16 +144,16 @@ nav {
 }
 
 button {
-    border: 1px solid blue;
+    border: 1px solid var(--green);
     height: 30px;
     width: 180px;
     border-radius: 5px;
     background-color: white;
-    color: blue;
+    color: var(--green);
 }
 
 button:hover {
-    background-color: blue;
+    background-color: var(--green);
     color: white;
     cursor: pointer;
 
@@ -199,7 +199,7 @@ footer .copyright {
 
 #in-btn {
     font-size: 20px;
-    color: blue;
+    color: var(--green);
     padding: 4px;
     border-radius: 3px;
 }
@@ -207,7 +207,7 @@ footer .copyright {
 #in-btn:hover {
     color: white;
     cursor: pointer;
-    background-color: blue;
+    background-color: var(--green);
 }
 
 @media screen and (max-width: 920px) {
