@@ -2,16 +2,17 @@
 h1 {
     font-size: 32px;
     margin-bottom: 50px;
-    text-align: center;
 }
 
 h2 {
     text-align: left;
     font-size: 28px;
     margin-bottom: var(--containers-padding);
+    color: var(--purple);
 }
 
 h3 {
+    color: var(--purple);
     font-size: 24px;
     margin-bottom: calc(var(--containers-padding) / 2);
 }
@@ -35,6 +36,7 @@ header {
     -webkit-box-shadow: 0 7px 7px -10px;
     -moz-box-shadow: 0 7px 7px -10px;
     box-shadow: 0 7px 7px -10px;
+    background-color: var(--purple);
 }
 
 .logo-container {
@@ -43,7 +45,7 @@ header {
 }
 
 #nav-logo  {
-    width: 250px;
+    width: 90px;
 }
 
 .nav-evener {
@@ -64,7 +66,7 @@ header {
 }
 
 nav {
-    color: rgb(71, 71, 255);
+    color: white;
     display: flex;
 }
 
@@ -117,12 +119,12 @@ nav {
 }
 
 .nav-btn:visited {
-    color: rgb(71, 71, 255);
+    color: white;
 
 }
 
 .nav-btn:hover {
-    border-bottom: 5px solid rgb(71, 71, 255);
+    border-bottom: 5px solid var(--white);
     cursor: pointer;
 }
 
@@ -162,8 +164,9 @@ button:hover {
 /* All that is related to the footer */
 
 footer {
-    background-color: var(--grey);
+    background-color: var(--purple);
     margin-bottom: -1;
+    color: var(--white);
 }
 
 .footer-logo-container {
@@ -180,10 +183,11 @@ footer {
 
 .footer-info a {
     text-decoration: none;
+    color: var(--white);
 }
 
 .footer-info a:visited {
-    color: black;
+    color: var(--white);
 
 }
 
