@@ -20,25 +20,10 @@ html {
   grid-template-rows: repeat(20, minmax(0, 1fr));
 }
 
-.hero2 {
-  color: white;
-
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)),
-    url(images/hero-img2.jpg);
-
-  height: 664px;
-
-  text-align: left;
-}
-
-
-
 .banner {
   /* padding: var(--containers-padding); */
   background-color: transparent;
-  grid-column: 2 / 18;
+  grid-column: 7 / 18;
   grid-row: 5 / 16;
   /* width: 20rem; */
   /* height: 5rem; */
@@ -122,7 +107,7 @@ html {
   }
 
   .hero {
-    height: 600px;
+    height: 300px;
   }
 
   .banner {
