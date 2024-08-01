@@ -98,8 +98,8 @@ html {
 
 .numbers {
   background:
-    linear-gradient(rgba(91, 66, 132, 0.85),
-      rgba(91, 66, 132, 0.85)),
+    linear-gradient(rgba(66, 90, 132, 0.85),
+      rgba(66, 90, 132, 0.85)),
     url(images/numbers-backdrop.jpg);
   background-size: cover;
   color: white;

@@ -1,14 +1,14 @@
 :root {
-    --header-height: 60px;
-    --header-desktop-width: 1170px;
-    --containers-padding: 50px;
-    --generic-containers-width: auto;
+  --header-height: 60px;
+  --header-desktop-width: 1170px;
+  --containers-padding: 50px;
+  --generic-containers-width: auto;
 
-    /* colors */
-    --grey: rgb(242, 242, 242);
-    --blue: #54c0f0;
-    --orange: #ff9800;
-    --green: #6b705c;
-    --purple: #5b4284;
-    --white: #ffffff;
+  /* colors */
+  --grey: rgb(242, 242, 242);
+  --blue: #54c0f0;
+  --orange: #ff9800;
+  --green: #6b705c;
+  --purple: #000000;
+  --white: #ffffff;
 }
