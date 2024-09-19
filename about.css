@@ -1,6 +1,92 @@
-.about-cover {
-    background: url("images/about-cover.jpg");
-    background-position: center;
-    background-size: cover;
+:root {
+  --img1-height: 600px;
+  --img2-height: 440px;
+  --img3-height: 440px;
+}
 
+.about-cover {
+  background: url("images/about-cover.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.para {
+  min-height: calc(var(--img1-height) + 167px);
+}
+
+
+#drill {
+  float: left;
+  height: var(--img1-height);
+  margin-right: 20px;
+}
+
+#bags {
+  float: right;
+  height: var(--img2-height);
+  margin-left: 20px;
+
+}
+
+#truckbags {
+  float:left;
+  height: var(--img3-height);
+  margin-right: 20px;
+}
+
+
+@media screen and (max-width: 920px) {
+  :root {
+    --img2-height: 400px;
+    --img3-height: 380px;
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+  :root {
+    --img2-height: 300px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  :root {
+    --img1-height: 500px;
+    --img2-height: 350px;
+  }
+
+  #bags {
+    float: none;
+    margin-left: 0;
+    margin-bottom: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  #truckbags {
+    float: none;
+    margin-right: 0;
+    margin-bottom: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+}
+
+@media screen and (max-width: 540px) {
+  :root {
+    --img1-height: 400px;
+  }
+
+}
+
+@media screen and (max-width: 452px) {
+  #drill {
+    float: none;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 }
