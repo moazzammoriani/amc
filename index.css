@@ -122,7 +122,7 @@ html {
 
 .number {
   text-align: left;
-  width: 130px;
+  width: 220px;
 }
 
 .number h5 {
@@ -188,3 +188,25 @@ html {
   }
 
 }
+
+@media screen and (max-width: 550px) {
+  .banner p {
+    font-size: 1.2rem;
+  }
+
+}
+
+@media screen and (max-width: 465px) {
+  .banner {
+    grid-row: 2 / 10;
+  }
+
+  .banner p {
+    font-size: 1rem;
+  }
+  .banner h1 {
+    font-size: 2.2rem;
+    grid-row: 3 / 10;
+  }
+}
+
