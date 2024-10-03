@@ -96,6 +96,10 @@ nav {
     height: 120px;
 }
 
+.nav-btn:link {
+  color:white;
+}
+
 .nav-btn {
     text-decoration: none;
     display: block;
