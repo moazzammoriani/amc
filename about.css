@@ -12,7 +12,7 @@
 }
 
 .para {
-  min-height: calc(var(--img1-height) + 167px);
+  min-height: calc(var(--img1-height) + 100px);
   display: flex;
 }
 
@@ -35,6 +35,19 @@
   list-style: decimal;
   padding-left: 20px;
   line-height: normal;
+}
+
+.para ol li {
+  margin: 20px 0;
+}
+
+.para ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.para ul li {
+  margin: 20px 0;
 }
 
 #drill {
