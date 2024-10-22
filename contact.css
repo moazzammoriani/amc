@@ -8,6 +8,10 @@
   display: flex;
 }
 
+form {
+  max-width: 500px;
+}
+
 .text-input {
   color: black;
   font-family: Helvetica, Arial, sans-serif;
